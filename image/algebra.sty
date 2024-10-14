@@ -1,0 +1,59 @@
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{algebra}[2024/10/14 Algebra Macros]
+
+\DeclareMathOperator{\ord}{ord}
+\DeclareMathOperator{\Perm}{Perm}
+\DeclareMathOperator{\lcm}{lcm}
+\DeclareMathOperator{\sgn}{sgn}
+\DeclareMathOperator{\inv}{inv}
+\DeclareMathOperator{\GL}{GL}
+\DeclareMathOperator{\SL}{SL}
+\DeclareMathOperator{\imag}{Im}
+\DeclareMathOperator{\Aut}{Aut}
+\DeclareMathOperator{\Hom}{Hom}
+\DeclareMathOperator{\rank}{rank}
+\DeclareMathOperator{\nullity}{nullity}
+
+\newcommand{\defn}[1]{
+\begin{definition}
+  #1
+\end{definition}
+}
+
+\newcommand{\prop}[1]{
+\begin{proposition}
+  #1
+\end{proposition}
+}
+
+\newcommand{\thm}[1]{
+\begin{theorem}
+  #1
+\end{theorem}
+}
+
+\newcommand{\lem}[1]{
+\begin{lemma}
+  #1
+\end{lemma}
+}
+
+\newcommand{\prf}[1]{
+\begin{proof}
+  #1
+\end{proof}
+}
+
+\newcommand{\bmat}[1]{
+  \begin{bmatrix}
+    #1
+  \end{bmatrix}
+}
+\newcommand{\pmat}[1]{
+  \begin{pmatrix}
+    #1
+  \end{pmatrix}
+}
+\newcommand{\vmat}[1]{
+  \begin{vmatrix} #1 \end{vmatrix}
+}

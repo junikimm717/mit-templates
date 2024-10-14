@@ -1,0 +1,7 @@
+main-*
+main.*
+!main.tex
+.DS_Store
+.vscode
+/venv
+__pycache__
